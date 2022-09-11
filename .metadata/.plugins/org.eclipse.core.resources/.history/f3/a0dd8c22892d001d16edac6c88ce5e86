@@ -1,0 +1,71 @@
+package br.com.empiricus.exercicios29062022;
+
+import java.util.Scanner;
+
+public class OperadoresLógicos {
+
+	public static void main(String[] args) {
+		//e --> &&
+		//ou --> ||
+		//ou exclusivo --> ^
+		//Not --> !*
+		
+		try(Scanner entrada = new Scanner(System.in));
+		int idade; 
+		System.out.print("Digite a sua idade: ");
+		idade = entrada.nextInt();
+		//boolean precisavotar = idade >= 18 && idade <=70;
+		//System.out.print(precisavotar)
+		if (idade >= 18 && idade <= 70){
+		System.out.println("Precisa Votar");
+		}
+		else if (idade >= 16 && idade < 18){
+		System.out.println("A votação é opcional");
+		}
+		else {
+		System.out.print("Não Precisa Votar");
+		}
+
+		/*Scanner suspenso = new Scanner(System.in);
+		int nrAmarelo, nrVermelho; 
+		System.out.print("Digite a quantidade de Cartões Amarelos: ");
+		nrAmarelo = suspenso.nextInt();
+		System.out.print("Digite a quantidade de Cartões Vermelhos: ");
+		nrVermelho = suspenso.nextInt();
+		if (nrAmarelo >= 2 || nrVermelho >= 1)
+		System.out.println("Jogador Suspenso");
+		else
+		System.out.print("Jogador Apto a Jogar");*/
+		
+		/*Scanner entrada = new Scanner(System.in);
+		int x, y; 
+		System.out.print("Digite o valor de X: ");
+		x = entrada.nextInt();
+		System.out.print("Digite o valor de Y: ");
+		y = entrada.nextInt();
+		boolean teste = x > 10 ^ y > 10;
+		System.out.println(teste);*/
+		
+		/*Scanner entrada = new Scanner(System.in);
+		int idade; 
+		System.out.print("Digite a sua idade: ");
+		idade = entrada.nextInt();
+		//boolean precisavotar = !(idade >= 18 && idade <=70);
+		//System.out.print(precisavotar);
+		if (!(idade >= 18))
+		System.out.println("Menor de Idade");
+		else
+		System.out.print("Maior de Idade");*/
+			
+	}
+}
+		
+	
+	
+		
+
+	
+	
+
+
+

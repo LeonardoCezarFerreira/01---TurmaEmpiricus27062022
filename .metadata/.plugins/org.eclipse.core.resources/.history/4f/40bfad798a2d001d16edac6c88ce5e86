@@ -1,0 +1,13 @@
+package br.com.empirirus.SobrecargaMetodo;
+
+public class TestaMinhaCalculadora {
+
+	public static void main(String[] args) {
+		try(MinhaCalculadora calc = new MinhaCalculadora()){;
+		System.out.println(calc.soma(20, 25));
+		System.out.println(calc.soma(20.01, 25));
+		System.out.println(calc.soma(20, 25, 5));
+		
+	}
+	}
+}

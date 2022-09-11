@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;br.com.empiricus.exercicios18072022&apos; to &apos;br.com.empiricus.construtor&apos;&#x0D;&#x0A;- Original project: &apos;8 - TurmaEmpiricus18072022&apos;&#x0D;&#x0A;- Original element: &apos;8 - TurmaEmpiricus18072022/src/br.com.empiricus.exercicios18072022&apos;&#x0D;&#x0A;- Renamed element: &apos;8 - TurmaEmpiricus18072022/src/br.com.empiricus.construtor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;br.com.empiricus.exercicios18072022&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;br.com.empiricus.exercicios18072022" name="br.com.empiricus.construtor" qualified="false" references="true" stamp="1662921169712" textual="false" version="1.0"/>
+</session>

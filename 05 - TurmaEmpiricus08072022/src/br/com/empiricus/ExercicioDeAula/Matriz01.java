@@ -1,0 +1,38 @@
+package br.com.empiricus.ExercicioDeAula;
+
+import java.util.Scanner;
+
+public class Matriz01 {
+
+	public static void main(String[] args) {
+		double[][] notasAlunos = new double [2][4];
+		try(Scanner entrada = new Scanner(System.in)){;
+		
+		notasAlunos[0][0] = 9.9; 
+		notasAlunos[0][1] = 5.0;
+		notasAlunos[0][2] = 8.4;
+		notasAlunos[0][3] = 9.3;
+			
+		notasAlunos[1][0] = 7.9; 
+		notasAlunos[1][1] = 6.0;
+		notasAlunos[1][2] = 9.2;
+		notasAlunos[1][3] = 10.0;
+		
+		for(int i = 0; i < notasAlunos.length; i++) {
+			for(int x = 0; x < notasAlunos[i].length;x++ ) {
+				System.out.printf("Digite as notas [%d] [%d]: ", i, x);
+				notasAlunos[i][x] = entrada.nextDouble();
+			
+		//	System.out.print(notasAlunos[i][x] + " | ");
+		}
+			//System.out.println();
+			}
+		for(int i = 0; i < notasAlunos.length; i++) {
+			for(int x = 0; x < notasAlunos[i].length;x++ ) {
+			System.out.print(notasAlunos[i][x] + " | ");
+		}
+			System.out.println();
+			}
+}
+	}
+}
